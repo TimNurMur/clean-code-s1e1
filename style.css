@@ -67,8 +67,8 @@ button {
 }
 
 /* Heading */
-h3,
-label[for='new-task'] {
+.list-title,
+label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
