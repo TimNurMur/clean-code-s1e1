@@ -106,7 +106,7 @@ button {
 }
 
 /* Task list */
-li {
+.task-list {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -115,22 +115,26 @@ li {
     align-items: center;
 }
 
-li > * {
+.task-list > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.task-list > .task-input-checkbox {
     margin: 0 10px;
 }
-
-li > label {
+/*
+.task-list > input[type="checkbox"] {
+    margin: 0 10px;
+}
+*/
+.task-list > .task-list-label {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
     width: 226px;
 }
 
-li > .task-input-text {
+.task-list > .task-input-text {
     width: 226px;
 }
 

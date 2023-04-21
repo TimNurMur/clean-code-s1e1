@@ -15,7 +15,7 @@
   </header>
   <main class="main">
     <div>
-      <label for="new-task" class="label-new-task">Add Item</label>
+      <label for="new-task" class="label-new-task task-list-label">Add Item</label>
       <div class="task-row-wrapper">
         <input id="new-task" class="task task-input-text">
         <button class="custom-button">Add</button>
@@ -23,18 +23,18 @@
     </div>
     <h3 class="list-title">Todo</h3>
     <ul id="incomplete-tasks">
-      <li>
-        <input type="checkbox">
-        <label class="task">Pay Bills</label>
+      <li class="task-list">
+        <input type="checkbox" class="task-input-checkbox">
+        <label class="task task-list-label">Pay Bills</label>
         <input class="task task-input-text">
         <button class="edit-button custom-button">Edit</button>
         <button class="delete-button custom-button">
           <img src="./assets/remove.svg" alt="Remove button">
         </button>
       </li>
-      <li class="edit-mode">
-        <input type="checkbox">
-        <label class="task">Go Shopping</label>
+      <li class="task-list edit-mode">
+        <input type="checkbox" class="task-input-checkbox">
+        <label class="task task-list-label">Go Shopping</label>
         <input value="Go Shopping" class="task task-input-text">
         <button class="edit-button custom-button">Save</button>
         <button class="delete-button custom-button">
@@ -44,9 +44,9 @@
     </ul>
     <h3 class="list-title">Completed</h3>
     <ul id="completed-tasks">
-    <li>
-      <input type="checkbox" checked>
-      <label class="task">See the Doctor</label>
+    <li class="task-list">
+      <input type="checkbox" checked class="task-input-checkbox">
+      <label class="task task-list-label">See the Doctor</label>
       <input class="task task-input-text">
       <button class="edit-button custom-button">Edit</button>
       <button class="delete-button custom-button">
