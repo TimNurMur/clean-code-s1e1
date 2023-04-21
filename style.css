@@ -122,11 +122,7 @@ button {
 .task-list > .task-input-checkbox {
     margin: 0 10px;
 }
-/*
-.task-list > input[type="checkbox"] {
-    margin: 0 10px;
-}
-*/
+
 .task-list > .task-list-label {
     padding-left: 10px;
     box-sizing: border-box;
@@ -138,18 +134,18 @@ button {
     width: 226px;
 }
 
-button.delete-button img {
+.delete-button img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-button.delete-button img:hover {
+.delete-button img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
